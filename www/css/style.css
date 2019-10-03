@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+body{
+  background: url("../bg.jpg");
+  background-position: center;
+}
+
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  height: 50%;
+  transform: translate(-59%,-50%);
+  margin-left: 5%;
+  margin-top: 15%;
+}
+
+.inputs h1{
+  color: White;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#sabor,#valor{
+  width: 100%;
+  margin-top: 6%;
+  color: white;
+}
+
+#sabor input{
+  border: none;
+  background: none;
+  margin-left: 7%;
+  border-bottom: 1px solid white;
+  transition: .3s;
+  color: white;
+  width: 60%;
+}
+
+#valor input{
+  border: none;
+  background: none;
+  margin-left: 9%;
+  border-bottom: 1px solid white;
+  transition: .3s;
+  width: 60%;
+}
+
+#valor{
+  margin-left: 1%;
+}
+
+.buttons{
+  text-align: center;
+  margin-top: 5%;
+}
+
+#Cadastrar{
+  background: none;
+  border: 2px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+#Listar{
+  background: none;
+  border: 2px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 5%;
+  transition: .3s;
+}
+
+#Cadastrar:focus{
+  background: white;
+  color: black;
+}
+
+#Listar:focus{
+  background: white;
+  color: black;
+}
+
+#sabor input:focus{
+  background: white;
+  color: black;
+  transition-delay: .3s;
+  width: 70%;
+  border-bottom: 2px solid black; 
+  padding: 10px;
+}
+
+#valor input:focus{
+  background: white;
+  color: black;
+  transition-delay: .3s;
+  width: 70%;
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+border-color: none !important;
+outline: 0;
+-webkit-box-shadow: none !important;
+box-shadow: none !important;
+}
+
+#sabor input:focus::-webkit-input-placeholder{
+  color: black;
+  transition-delay: .3s;
+}
+
+#valor input:focus::-webkit-input-placeholder{
+  color: black;
+  transition-delay: .3s;
+}
+
+::-webkit-input-placeholder{
+  color: white;
+}
+
+
+
