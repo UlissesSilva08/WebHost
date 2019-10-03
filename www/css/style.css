@@ -107,6 +107,7 @@ body{
   padding: 10px;
 }
 
+button:focus,
 textarea:focus,
 input:focus,
 select:focus {
